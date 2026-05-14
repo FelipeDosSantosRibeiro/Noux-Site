@@ -207,7 +207,7 @@ body {
       left: 0;
       width: 100%;
       height: 100%;
-      background-image: url('img/giphy-downsized-large.gif');
+      background-image: url('img/new new gif.gif');
       background-size: cover;
       filter: brightness(0.7);
       margin-top: 20px;
@@ -233,6 +233,7 @@ body {
       background-color: #825DC6;
       border-radius: 20px;
       padding: 10px;
+      margin-left: 20xp;
     }
     .content-img {
       width: 100%;
@@ -244,6 +245,7 @@ body {
       display: flex;
       align-items: center;
       justify-content: center;
+      
     }
     .carousel-item img {
       width: 390px;
