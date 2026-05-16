@@ -116,17 +116,20 @@ body {
     padding: 5px 10px;
     background-color: #825DC6;
     padding: 15px;
+    text-align: center;
+    
 }
 .navbar{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
+  background-color:#825DC6;
   color: white;
   padding: 330px;
   position: sticky;
   top: 0;
   z-index: 1000;
+    box-shadow: 0 4px 8px #333;
 }
 .nav-item{
   padding-left: 20px;
@@ -146,19 +149,18 @@ body {
   list-style: none;
   display: flex;
 }
-
 .nav-links li {
   margin-left: 2rem;
 }
 
 .nav-links a {
-  color: white;
+  color: rgb(0, 0, 0);
   text-decoration: none;
   transition: color 0.3s;
 }
 
 .nav-links a:hover {
-  color: #ddd;
+  color: #ffffff;
 }
 
 .burger {
@@ -166,6 +168,7 @@ body {
   font-size: 1.5rem;
   cursor: pointer;
 }
+
 
 .media{
   .nav-links {
@@ -188,8 +191,6 @@ body {
     display: block;
   }
 }
-
-
 .carousel-item img {
       width: 100vw;
       height: 500px;
@@ -233,30 +234,32 @@ body {
       background-color: #825DC6;
       border-radius: 20px;
       padding: 10px;
-      margin-left: 20xp;
+      margin-left: 20;
+      font-size: 1.3rem;
     }
     .content-img {
       width: 100%;
-      height: 300px;
+      height: 225px;
       object-fit: contain;
     }
     .carousel-item {
-      height: 100vh;
+      max-width: 250vh;
       display: flex;
       align-items: center;
       justify-content: center;
-      
     }
     .carousel-item img {
-      width: 390px;
-      height: 1116px;
-      object-fit: cover;
-      border-radius: 20px;
-      margin-bottom: 20px;
-
+      max-width: 100%;
+      height: auto;
+      object-fit: contain;
     }
     .content-row {
-      min-height: 100vh;
       display: flex;
-      align-items: center;
+      align-items: flex-start;
     }
+div p {
+  color: white;
+}
+.rota-img{
+  max-width: 70%;
+}
